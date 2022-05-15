@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/universityLocationFragment">
+
+    <fragment
+        android:id="@+id/universityLocationFragment"
+        android:name="lk.ac.kln.stu.ps2017050googlemapassignment.fragments.UniversityLocationFragment"
+        android:label="Universities of Sri Lanka"
+        tools:layout="@layout/fragment_university_location" />
+</navigation>
